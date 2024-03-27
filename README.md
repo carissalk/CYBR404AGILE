@@ -1,5 +1,5 @@
 # TTE Bot: Text-To-Emoji Discord Bot
-The TTE Discord bot takes an input of ***a discord message*** and outputs ***a translation of the text into emoji.*** <br>
+The TTE Discord bot takes an input of ***a discord message*** (in English) and outputs ***a translation of the text into emoji.*** <br>
 
 ### TTE***eaamm*** Collaborators
 - **Scrummaster:** [Carissa - Github](https://github.com/carissalk) <br>
