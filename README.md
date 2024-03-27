@@ -13,7 +13,7 @@ The TTE Discord bot takes an input of ***a discord message*** and outputs ***a t
 *Insert instructions here to aid in using the discord bot
 
 ---
-### Sprints:
+### Scrum Sprints:
 - [**Sprint 1**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintOne.md) <br>
 ---
 #### Sources
