@@ -16,5 +16,5 @@ Our program will not work outside of Discord. <br>
 Our program will not work without an internet connection. <br>
 Our program will not be maintained outside of the three week project period. <br>
 ? Our program will not work without the correct python installation. <br>
-        - Will the user need the code for the bot or just invite it to the server?
+(Will the user need the code for the bot or just invite it to the server?)
 
