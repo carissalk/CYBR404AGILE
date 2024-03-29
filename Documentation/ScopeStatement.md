@@ -10,11 +10,11 @@ Our program will work with Discord to enhance the users experience. <br>
 Our program will take a users text input. <br>
 Our program will convert text to emoji's. <br>
 Our program will work using python and python libraries. <br>
+Our program will be hosted by us for the duration of the project and maintenance. <br>
 
 **What our program WILL NOT do:** <br>
 Our program will not work outside of Discord. <br>
 Our program will not work without an internet connection. <br>
 Our program will not be maintained outside of the three week project period. <br>
-? Our program will not work without the correct python installation. <br>
-(Will the user need the code for the bot or just invite it to the server?)
+Our program will not be online after the three week period. <br>
 
