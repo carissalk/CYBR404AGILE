@@ -7,3 +7,4 @@ This first sprint involved the necessary decisions following our project selecti
 ### Outcomes Required to Finish the Sprint:
   - A bot that interacts with Discord <br>
   - Individual Research about Discord Bot Implementation <br>
+  - User Stories ![User Stories](../Images/User_Stories_Sprint1.jpg)
