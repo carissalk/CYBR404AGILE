@@ -26,3 +26,4 @@ The TTE Discord bot takes an input of ***a discord message*** (in English) and o
 #### Sources
 - [How to Make a Discord Bot in Python](https://realpython.com/how-to-make-a-discord-bot-python/) <br>
 - [Emoji Translator](https://github.com/notwaldorf/emoji-translate) <br>
+- [Discord Bot Setup](https://www.youtube.com/watch?v=UYJDKSah-Ww&t=137s) <br>
