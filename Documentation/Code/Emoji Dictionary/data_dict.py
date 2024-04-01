@@ -60,6 +60,7 @@ import os
 # THE BELOW CODE WILL CONVERT THE UNICODE TO EMOJI IN THE CSV
 #-------------------------------------------------------
 # Create a new dictionary that contains the Unicode and the 'en' value for each emoji (may convert to emoji in csv)
+
 en_data = {}
 for unicode, emoji_dict in EMOJI_DATA.items():
     if 'en' in emoji_dict:
@@ -70,6 +71,8 @@ en_df = pd.DataFrame(list(en_data.items()), columns=['Unicode', 'English Name'])
 
 # Lowercase every English name
 en_df['English Name'] = en_df['English Name'].str.lower()
+# Lowercase every English name and remove colons
+en_df['English Name'] = en_df['English Name'].str.lower().str.replace(':', '')
 
 # Get the directory of the script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -79,34 +82,3 @@ csv_path = os.path.join(script_dir, 'updated_dict.csv')
 
 # Write the DataFrame to a CSV file
 en_df.to_csv(csv_path, index=False)
-
-
-
-
-#------------------------------------------------------------------------
-# THE BELOW CODE WILL CONVERT THE UNICODE TO STRING TO DISPLAY AS UNICODE
-#------------------------------------------------------------------------
-"""
-# Create a new dictionary that only contains the Unicode as a string and the 'en' value for each emoji
-en_data = {}
-for unicode, emoji_dict in EMOJI_DATA.items():
-    if 'en' in emoji_dict:
-        # Convert each character in the Unicode to its string representation
-        unicode_str = ''.join('\\U{:08x}'.format(ord(c)) for c in unicode)
-        en_data[unicode_str] = emoji_dict['en']
-
-# Convert the new dictionary into a DataFrame
-en_df = pd.DataFrame(list(en_data.items()), columns=['Unicode', 'English Name'])
-
-# Lowercase every English name
-en_df['English Name'] = en_df['English Name'].str.lower()
-
-# Get the directory of the script
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Create the full path of the CSV file
-csv_path = os.path.join(script_dir, 'updated_dict.csv')
-
-# Write the DataFrame to a CSV file
-en_df.to_csv(csv_path, index=False)
-"""
