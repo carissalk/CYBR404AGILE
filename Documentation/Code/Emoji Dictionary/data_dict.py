@@ -1,4 +1,3 @@
-import pandas as pd
 
 
 """Data containing all current emoji
