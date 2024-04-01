@@ -52,10 +52,13 @@ EMOJI_DATA = {'\U0001F947':{'en':':1st_place_medal:','status':fully_qualified,'E
 
 
 
+
 import pandas as pd
 import os
 
-
+#-------------------------------------------------------
+# THE BELOW CODE WILL CONVERT THE UNICODE TO EMOJI IN THE CSV
+#-------------------------------------------------------
 # Create a new dictionary that contains the Unicode and the 'en' value for each emoji (may convert to emoji in csv)
 en_data = {}
 for unicode, emoji_dict in EMOJI_DATA.items():
@@ -75,7 +78,11 @@ csv_path = os.path.join(script_dir, 'updated_dict.csv')
 en_df.to_csv(csv_path, index=False)
 
 
-#----------------------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------
+# THE BELOW CODE WILL CONVERT THE UNICODE TO STRING TO DISPLAY AS UNICODE
+#------------------------------------------------------------------------
 """
 # Create a new dictionary that only contains the Unicode as a string and the 'en' value for each emoji
 en_data = {}
