@@ -68,8 +68,6 @@ for unicode, emoji_dict in EMOJI_DATA.items():
 # Convert the new dictionary into a DataFrame
 en_df = pd.DataFrame(list(en_data.items()), columns=['Unicode', 'English Name'])
 
-# Lowercase every English name
-en_df['English Name'] = en_df['English Name'].str.lower()
 # Lowercase every English name and remove colons
 en_df['English Name'] = en_df['English Name'].str.lower().str.replace(':', '')
 
