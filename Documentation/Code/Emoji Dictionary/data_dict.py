@@ -68,6 +68,9 @@ for unicode, emoji_dict in EMOJI_DATA.items():
 # Convert the new dictionary into a DataFrame
 en_df = pd.DataFrame(list(en_data.items()), columns=['Unicode', 'English Name'])
 
+# Lowercase every English name
+en_df['English Name'] = en_df['English Name'].str.lower()
+
 # Get the directory of the script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -94,6 +97,9 @@ for unicode, emoji_dict in EMOJI_DATA.items():
 
 # Convert the new dictionary into a DataFrame
 en_df = pd.DataFrame(list(en_data.items()), columns=['Unicode', 'English Name'])
+
+# Lowercase every English name
+en_df['English Name'] = en_df['English Name'].str.lower()
 
 # Get the directory of the script
 script_dir = os.path.dirname(os.path.abspath(__file__))
