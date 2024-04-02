@@ -22,6 +22,7 @@ The TTE Discord bot takes an input of ***a discord message*** (in English) and o
 ### Scrum Sprints:
 - [**Sprint 1**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintOne.md) <br>
 - [**Sprint 2**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintTwo.md) <br>
+- [**Sprint 3**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintThree.md) <br>
 ---
 #### Sources
 - [How to Make a Discord Bot in Python](https://realpython.com/how-to-make-a-discord-bot-python/) <br>
