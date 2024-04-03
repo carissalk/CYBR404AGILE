@@ -7,3 +7,5 @@ This sprint involves a new function to use the dictionary from Sprint #2 to sear
 ### Outcomes Required to Finish the Sprint:
   - prototype #3
   - text replacement functionality
+
+![Sprint3Prototype](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Images/sprint3_prototype.png)
