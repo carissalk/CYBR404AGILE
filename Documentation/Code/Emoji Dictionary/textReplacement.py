@@ -11,6 +11,7 @@ Current Issues:
 - get_response function is not imported
 - need to remove punctuation from user_message
 - bot returns lowercase response instead of exact user input
+- need to have underscores for multi-word emojis
 """
 
 # get response function from get_responses.py (had issues importing it)
