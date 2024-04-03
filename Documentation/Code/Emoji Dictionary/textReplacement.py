@@ -31,7 +31,7 @@ csv_path = os.path.join(script_dir, 'updatedDict.csv')
 df = pd.read_csv(csv_path)
     
 
-TOKEN = "token"
+TOKEN = "TOKEN IS SOMEWHERE ELSE WOULDN'T LET ME UPLOAD IT IN GITHUB"
 
 load_dotenv()
 # TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
