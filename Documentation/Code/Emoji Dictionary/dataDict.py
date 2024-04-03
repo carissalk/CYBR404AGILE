@@ -69,7 +69,7 @@ for unicode, emoji_dict in EMOJI_DATA.items():
 en_df = pd.DataFrame(list(en_data.items()), columns=['Unicode', 'English Name'])
 
 # Lowercase every English name and remove colons
-en_df['English Name'] = en_df['English Name'].str.lower().str.replace(':', '').str.replace('_', ' ')
+en_df['English Name'] = en_df['English Name'].str.lower().str.replace(':', '') #.str.replace('_', ' ')
 
 # Get the directory of the script
 script_dir = os.path.dirname(os.path.abspath(__file__))

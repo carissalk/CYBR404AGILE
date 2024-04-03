@@ -10,6 +10,7 @@ import sys
 Current Issues:
 - get_response function is not imported
 - need to remove punctuation from user_message
+- bot returns lowercase response instead of exact user input
 """
 
 # get response function from get_responses.py (had issues importing it)
@@ -29,7 +30,7 @@ csv_path = os.path.join(script_dir, 'updatedDict.csv')
 df = pd.read_csv(csv_path)
     
 
-TOKEN = "token is somewhere else wouldn't let me upload it in github"
+TOKEN = "token"
 
 load_dotenv()
 # TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
