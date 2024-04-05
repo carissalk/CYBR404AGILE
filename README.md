@@ -24,6 +24,7 @@ The TTE Discord bot takes an input of ***a discord message*** (in English) and o
 - [**Sprint 2**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintTwo.md) <br>
 - [**Sprint 3**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintThree.md) <br>
 - [**Sprint 4**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintFour.md) <br>
+- [**Sprint 5**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintFive.md) <br>
 ---
 #### Sources
 - [How to Make a Discord Bot in Python](https://realpython.com/how-to-make-a-discord-bot-python/) <br>
