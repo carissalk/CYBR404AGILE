@@ -13,7 +13,9 @@ Current Issues:
 - need to have underscores for multi-word emojis
        -check if word is converted and if not try to add the next (up to 3 times)
 """
+
 punctuation = ['.', ',', '!', '?', ';', ':', '-', '(', ')', '[', ']', '{', '}', '\\', '|', '<', '>', '@', '#', '$', '%', '^', '&', '*', '~', '`', 'underscore', '+', '=']
+
 
 # response function
 def get_response(user_message):
@@ -34,7 +36,7 @@ def get_response(user_message):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(script_dir, 'updatedDict.csv')
 df = pd.read_csv(csv_path)
-    
+
 tokenTrick = "MTIyMjU3MTY4M'DA1NzI2MjEyMQ.Gm4V-v.XF68jpU4u4BYw8OqKP7IhlUCK'4ofYzq6yJkk-s"
 tokenTrick = tokenTrick.replace("'", "")
 TOKEN = tokenTrick
@@ -59,23 +61,12 @@ async def send_message(message: Message, user_message: str) -> None:
     if is_private := user_message[0] == '?':
         user_message = user_message[1:] # might be a 0 after 1:
 
-    # Split the user's message into words
-    words = user_message.split()
-
-    # Create a separate variable for the lowercased words
-    lower_words = [word.lower() for word in words]
-
-    # Replace any word that matches a value in the dictionary with the corresponding key
-    words = [emoji_dict.get(word, word) for word in lower_words]
-
-    # Join the words back into a string
-    user_message = ' '.join(words)
-
     try:
         response: str = get_response(user_message)
         await message.author.send(response) if is_private else await message.channel.send(response)
     except Exception as e:
         print(e)
+
 
 # startup bot         
 @client.event
