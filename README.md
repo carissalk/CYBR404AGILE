@@ -29,6 +29,8 @@ The bot will be hosted for the duration of this project. <br>
 - [**Sprint 3**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintThree.md) <br>
 - [**Sprint 4**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintFour.md) <br>
 - [**Sprint 5**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintFive.md) <br>
+- [**Sprint 6**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintSix.md) <br>
+
 ---
 #### Sources
 - [How to Make a Discord Bot in Python](https://realpython.com/how-to-make-a-discord-bot-python/) <br>
