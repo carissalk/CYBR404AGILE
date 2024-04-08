@@ -3,12 +3,9 @@ from typing import Final
 import os
 from discord import Intents, Client, Message
 import string
-#from responses import get_response
 
 """
 Current Issues:
-- get_response function is not imported
-- need to remove punctuation from user_message
 - bot returns lowercase response instead of exact user input
 - need to have underscores for multi-word emojis
        -check if word is converted and if not try to add the next (up to 3 times)
@@ -58,8 +55,10 @@ replace_text = True
 async def send_message(message: Message, user_message: str) -> None:
     global replace_text
 
+    # Help command    
     if user_message == "/TTEhelp":
-        await message.channel.send("Type '/TTEtoggle' to enable or disable Text to Emoji conversion")
+        await message.channel.send("Type '/TTEtoggle' to enable or disable Text to Emoji conversion\n \
+                        To view commands or find help, go to https://github.com/carissalk/CYBR404AGILE/blob/main/README.md")
         return
 
     # Text to Emoji toggle 
