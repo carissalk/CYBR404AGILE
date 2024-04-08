@@ -51,9 +51,22 @@ client: Client = Client(intents=intents)
 # Convert the DataFrame into a dictionary
 emoji_dict = df.set_index('English Name')['Unicode'].to_dict()
 
+# Text to Emoji toggle
+replace_text = True
 
 # messaging
 async def send_message(message: Message, user_message: str) -> None:
+    global replace_text
+
+    # Text to Emoji toggle 
+    if user_message == "/TTEtoggle":
+        replace_text = not replace_text
+        await message.channel.send(f"Text to Emoji is now {'enabled' if replace_text else 'disabled'}")
+        return
+    if not user_message or not replace_text:
+        print("Message is empty or text to emoji is disabled")
+        return
+    
     if not user_message:
         print("Message is empty")
         return
