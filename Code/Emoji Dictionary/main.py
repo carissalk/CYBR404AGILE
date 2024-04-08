@@ -58,6 +58,10 @@ replace_text = True
 async def send_message(message: Message, user_message: str) -> None:
     global replace_text
 
+    if user_message == "/TTEhelp":
+        await message.channel.send("Type '/TTEtoggle' to enable or disable Text to Emoji conversion")
+        return
+
     # Text to Emoji toggle 
     if user_message == "/TTEtoggle":
         replace_text = not replace_text
