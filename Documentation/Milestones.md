@@ -29,8 +29,5 @@
 
 - **Sprint 7,** 04/10 - 04/12: <br>
   - prototype #7
-  - security
-
-- **Sprint 8,** 04/12 - 04/15: <br>
-  - prototype #8
-  - testing
+  - security / testing
+  
