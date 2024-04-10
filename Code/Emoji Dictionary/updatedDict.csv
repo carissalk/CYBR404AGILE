@@ -326,11 +326,12 @@ Unicode,English Name
 🇹🇷,türkiye
 🇺🇲,u.s._outlying_islands
 🇻🇮,u.s._virgin_islands
-🆙,up!_button
+🆙,up!
 🇺🇬,uganda
 🇺🇦,ukraine
 🇦🇪,united_arab_emirates
 🇬🇧,united_kingdom
+🇬🇧,uk
 🇺🇳,united_nations
 🇺🇸,united_states
 🇺🇾,uruguay
@@ -1106,7 +1107,9 @@ Unicode,English Name
 🤯,woah
 🤯,whoa
 🤯,fr
-😑,expressionless
+😑,grr
+😑,no.
+😑,nope
 👁️,eye
 👁,eye
 👁️‍🗨️,eye_in_speech_bubble
@@ -1114,6 +1117,9 @@ Unicode,English Name
 👁️‍🗨,eye_in_speech_bubble
 👁‍🗨,eye_in_speech_bubble
 👀,eyes
+👀,sus
+👀,ooh
+👀,see
 😘,xx
 😘,kiss
 😮‍💨,exhaling
@@ -1141,7 +1147,8 @@ Unicode,English Name
 🙄,whatever
 😵‍💫,overwhelmed
 😤,upset
-🤬,face_with_symbols_on_mouth
+🤬,frick
+🤬,heck
 😂,hahaha
 😂,haha
 🤒,sick
@@ -1219,6 +1226,8 @@ Unicode,English Name
 📽️,movie
 📽,film_projector
 🔥,fire
+🔥,roasted
+🔥,roast
 🚒,firetruck
 🧯,burn
 🧨,firecracker
@@ -1499,6 +1508,8 @@ Unicode,English Name
 📥,inbox_tray
 📨,incoming_envelope
 🫵,you
+🫵,you're
+🫵,your
 🫵🏿,index_pointing_at_the_viewer_dark_skin_tone
 🫵🏻,index_pointing_at_the_viewer_light_skin_tone
 🫵🏾,index_pointing_at_the_viewer_medium-dark_skin_tone
@@ -2128,7 +2139,7 @@ Unicode,English Name
 💇🏼‍♂,man_getting_haircut_medium-light_skin_tone
 💇🏽‍♂️,man_getting_haircut_medium_skin_tone
 💇🏽‍♂,man_getting_haircut_medium_skin_tone
-💆‍♂️,man_getting_massage
+💆‍♂️,massage
 💆‍♂,man_getting_massage
 💆🏿‍♂️,man_getting_massage_dark_skin_tone
 💆🏿‍♂,man_getting_massage_dark_skin_tone
@@ -2140,8 +2151,8 @@ Unicode,English Name
 💆🏼‍♂,man_getting_massage_medium-light_skin_tone
 💆🏽‍♂️,man_getting_massage_medium_skin_tone
 💆🏽‍♂,man_getting_massage_medium_skin_tone
-🏌️‍♂️,man_golfing
-🏌‍♂️,man_golfing
+🏌️‍♂️,golfing
+🏌‍♂️,swing
 🏌️‍♂,man_golfing
 🏌‍♂,man_golfing
 🏌🏿‍♂️,man_golfing_dark_skin_tone
@@ -2154,7 +2165,7 @@ Unicode,English Name
 🏌🏼‍♂,man_golfing_medium-light_skin_tone
 🏌🏽‍♂️,man_golfing_medium_skin_tone
 🏌🏽‍♂,man_golfing_medium_skin_tone
-💂‍♂️,man_guard
+💂‍♂️,guard
 💂‍♂,man_guard
 💂🏿‍♂️,man_guard_dark_skin_tone
 💂🏿‍♂,man_guard_dark_skin_tone
@@ -2178,8 +2189,8 @@ Unicode,English Name
 👨🏼‍⚕,man_health_worker_medium-light_skin_tone
 👨🏽‍⚕️,man_health_worker_medium_skin_tone
 👨🏽‍⚕,man_health_worker_medium_skin_tone
-🧘‍♂️,man_in_lotus_position
-🧘‍♂,man_in_lotus_position
+🧘‍♂️,zen
+🧘‍♂,yoga
 🧘🏿‍♂️,man_in_lotus_position_dark_skin_tone
 🧘🏿‍♂,man_in_lotus_position_dark_skin_tone
 🧘🏻‍♂️,man_in_lotus_position_light_skin_tone
@@ -2190,7 +2201,7 @@ Unicode,English Name
 🧘🏼‍♂,man_in_lotus_position_medium-light_skin_tone
 🧘🏽‍♂️,man_in_lotus_position_medium_skin_tone
 🧘🏽‍♂,man_in_lotus_position_medium_skin_tone
-👨‍🦽,man_in_manual_wheelchair
+👨‍🦽,wheelchair
 👨🏿‍🦽,man_in_manual_wheelchair_dark_skin_tone
 👨‍🦽‍➡️,man_in_manual_wheelchair_facing_right
 👨‍🦽‍➡,man_in_manual_wheelchair_facing_right
@@ -2238,7 +2249,7 @@ Unicode,English Name
 🧖🏼‍♂,man_in_steamy_room_medium-light_skin_tone
 🧖🏽‍♂️,man_in_steamy_room_medium_skin_tone
 🧖🏽‍♂,man_in_steamy_room_medium_skin_tone
-🤵‍♂️,man_in_tuxedo
+🤵‍♂️,fancy
 🤵‍♂,man_in_tuxedo
 🤵🏿‍♂️,man_in_tuxedo_dark_skin_tone
 🤵🏿‍♂,man_in_tuxedo_dark_skin_tone
@@ -2250,7 +2261,7 @@ Unicode,English Name
 🤵🏼‍♂,man_in_tuxedo_medium-light_skin_tone
 🤵🏽‍♂️,man_in_tuxedo_medium_skin_tone
 🤵🏽‍♂,man_in_tuxedo_medium_skin_tone
-👨‍⚖️,man_judge
+👨‍⚖️,judge
 👨‍⚖,man_judge
 👨🏿‍⚖️,man_judge_dark_skin_tone
 👨🏿‍⚖,man_judge_dark_skin_tone
@@ -2262,8 +2273,8 @@ Unicode,English Name
 👨🏼‍⚖,man_judge_medium-light_skin_tone
 👨🏽‍⚖️,man_judge_medium_skin_tone
 👨🏽‍⚖,man_judge_medium_skin_tone
-🤹‍♂️,man_juggling
-🤹‍♂,man_juggling
+🤹‍♂️,juggling
+🤹‍♂,goofy
 🤹🏿‍♂️,man_juggling_dark_skin_tone
 🤹🏿‍♂,man_juggling_dark_skin_tone
 🤹🏻‍♂️,man_juggling_light_skin_tone
@@ -2274,8 +2285,8 @@ Unicode,English Name
 🤹🏼‍♂,man_juggling_medium-light_skin_tone
 🤹🏽‍♂️,man_juggling_medium_skin_tone
 🤹🏽‍♂,man_juggling_medium_skin_tone
-🧎‍♂️,man_kneeling
-🧎‍♂,man_kneeling
+🧎‍♂️,kneeling
+🧎‍♂,beg
 🧎🏿‍♂️,man_kneeling_dark_skin_tone
 🧎🏿‍♂,man_kneeling_dark_skin_tone
 🧎‍♂️‍➡️,man_kneeling_facing_right
@@ -2310,8 +2321,8 @@ Unicode,English Name
 🧎🏼‍♂,man_kneeling_medium-light_skin_tone
 🧎🏽‍♂️,man_kneeling_medium_skin_tone
 🧎🏽‍♂,man_kneeling_medium_skin_tone
-🏋️‍♂️,man_lifting_weights
-🏋‍♂️,man_lifting_weights
+🏋️‍♂️,lifting
+🏋‍♂️,lift
 🏋️‍♂,man_lifting_weights
 🏋‍♂,man_lifting_weights
 🏋🏿‍♂️,man_lifting_weights_dark_skin_tone
@@ -2333,7 +2344,7 @@ Unicode,English Name
 👨🏻‍🦱,man_light_skin_tone_curly_hair
 👨🏻‍🦰,man_light_skin_tone_red_hair
 👨🏻‍🦳,man_light_skin_tone_white_hair
-🧙‍♂️,man_mage
+🧙‍♂️,mage
 🧙‍♂,man_mage
 🧙🏿‍♂️,man_mage_dark_skin_tone
 🧙🏿‍♂,man_mage_dark_skin_tone
@@ -2345,7 +2356,7 @@ Unicode,English Name
 🧙🏼‍♂,man_mage_medium-light_skin_tone
 🧙🏽‍♂️,man_mage_medium_skin_tone
 🧙🏽‍♂,man_mage_medium_skin_tone
-👨‍🔧,man_mechanic
+👨‍🔧,mechanic
 👨🏿‍🔧,man_mechanic_dark_skin_tone
 👨🏻‍🔧,man_mechanic_light_skin_tone
 👨🏾‍🔧,man_mechanic_medium-dark_skin_tone
@@ -2444,7 +2455,7 @@ Unicode,English Name
 👮🏼‍♂,man_police_officer_medium-light_skin_tone
 👮🏽‍♂️,man_police_officer_medium_skin_tone
 👮🏽‍♂,man_police_officer_medium_skin_tone
-🙎‍♂️,man_pouting
+🙎‍♂️,pouting
 🙎‍♂,man_pouting
 🙎🏿‍♂️,man_pouting_dark_skin_tone
 🙎🏿‍♂,man_pouting_dark_skin_tone
@@ -2456,7 +2467,7 @@ Unicode,English Name
 🙎🏼‍♂,man_pouting_medium-light_skin_tone
 🙎🏽‍♂️,man_pouting_medium_skin_tone
 🙎🏽‍♂,man_pouting_medium_skin_tone
-🙋‍♂️,man_raising_hand
+🙋‍♂️,me
 🙋‍♂,man_raising_hand
 🙋🏿‍♂️,man_raising_hand_dark_skin_tone
 🙋🏿‍♂,man_raising_hand_dark_skin_tone
@@ -2481,8 +2492,9 @@ Unicode,English Name
 🚣🏼‍♂,man_rowing_boat_medium-light_skin_tone
 🚣🏽‍♂️,man_rowing_boat_medium_skin_tone
 🚣🏽‍♂,man_rowing_boat_medium_skin_tone
-🏃‍♂️,man_running
-🏃‍♂,man_running
+🏃‍♂️,bye
+🏃‍♂,yeet
+🏃‍♂,brb
 🏃🏿‍♂️,man_running_dark_skin_tone
 🏃🏿‍♂,man_running_dark_skin_tone
 🏃‍♂️‍➡️,man_running_facing_right
@@ -2517,14 +2529,14 @@ Unicode,English Name
 🏃🏼‍♂,man_running_medium-light_skin_tone
 🏃🏽‍♂️,man_running_medium_skin_tone
 🏃🏽‍♂,man_running_medium_skin_tone
-👨‍🔬,man_scientist
+👨‍🔬,scientist
 👨🏿‍🔬,man_scientist_dark_skin_tone
 👨🏻‍🔬,man_scientist_light_skin_tone
 👨🏾‍🔬,man_scientist_medium-dark_skin_tone
 👨🏼‍🔬,man_scientist_medium-light_skin_tone
 👨🏽‍🔬,man_scientist_medium_skin_tone
-🤷‍♂️,man_shrugging
-🤷‍♂,man_shrugging
+🤷‍♂️,idk
+🤷‍♂,?
 🤷🏿‍♂️,man_shrugging_dark_skin_tone
 🤷🏿‍♂,man_shrugging_dark_skin_tone
 🤷🏻‍♂️,man_shrugging_light_skin_tone
@@ -2541,8 +2553,8 @@ Unicode,English Name
 👨🏾‍🎤,man_singer_medium-dark_skin_tone
 👨🏼‍🎤,man_singer_medium-light_skin_tone
 👨🏽‍🎤,man_singer_medium_skin_tone
-🧍‍♂️,man_standing
-🧍‍♂,man_standing
+🧍‍♂️,standing
+🧍‍♂,here
 🧍🏿‍♂️,man_standing_dark_skin_tone
 🧍🏿‍♂,man_standing_dark_skin_tone
 🧍🏻‍♂️,man_standing_light_skin_tone
@@ -2553,7 +2565,7 @@ Unicode,English Name
 🧍🏼‍♂,man_standing_medium-light_skin_tone
 🧍🏽‍♂️,man_standing_medium_skin_tone
 🧍🏽‍♂,man_standing_medium_skin_tone
-👨‍🎓,man_student
+👨‍🎓,student
 👨🏿‍🎓,man_student_dark_skin_tone
 👨🏻‍🎓,man_student_light_skin_tone
 👨🏾‍🎓,man_student_medium-dark_skin_tone
@@ -2583,7 +2595,7 @@ Unicode,English Name
 🦹🏼‍♂,man_supervillain_medium-light_skin_tone
 🦹🏽‍♂️,man_supervillain_medium_skin_tone
 🦹🏽‍♂,man_supervillain_medium_skin_tone
-🏄‍♂️,man_surfing
+🏄‍♂️,surf
 🏄‍♂,man_surfing
 🏄🏿‍♂️,man_surfing_dark_skin_tone
 🏄🏿‍♂,man_surfing_dark_skin_tone
@@ -2595,7 +2607,7 @@ Unicode,English Name
 🏄🏼‍♂,man_surfing_medium-light_skin_tone
 🏄🏽‍♂️,man_surfing_medium_skin_tone
 🏄🏽‍♂,man_surfing_medium_skin_tone
-🏊‍♂️,man_swimming
+🏊‍♂️,swim
 🏊‍♂,man_swimming
 🏊🏿‍♂️,man_swimming_dark_skin_tone
 🏊🏿‍♂,man_swimming_dark_skin_tone
@@ -2722,7 +2734,7 @@ Unicode,English Name
 👨🏾‍🦯,man_with_white_cane_medium-dark_skin_tone
 👨🏼‍🦯,man_with_white_cane_medium-light_skin_tone
 👨🏽‍🦯,man_with_white_cane_medium_skin_tone
-🧟‍♂️,man_zombie
+🧟‍♂️,zombie
 🧟‍♂,man_zombie
 🥭,mango
 🕰️,mantelpiece_clock
@@ -2734,7 +2746,7 @@ Unicode,English Name
 🪇,maracas
 🥋,martial_arts_uniform
 🧉,mate
-🍖,meat_on_bone
+🍖,meat
 🧑‍🔧,mechanic
 🧑🏿‍🔧,mechanic_dark_skin_tone
 🧑🏻‍🔧,mechanic_light_skin_tone
@@ -2750,8 +2762,8 @@ Unicode,English Name
 🏽,medium_skin_tone
 📣,megaphone
 🍈,melon
-🫠,melting_face
-📝,memo
+🫠,melting
+📝,noted
 👬,men_holding_hands
 👬🏿,men_holding_hands_dark_skin_tone
 👨🏿‍🤝‍👨🏻,men_holding_hands_dark_skin_tone_light_skin_tone
@@ -2826,7 +2838,7 @@ Unicode,English Name
 🖕🏾,middle_finger_medium-dark_skin_tone
 🖕🏼,middle_finger_medium-light_skin_tone
 🖕🏽,middle_finger_medium_skin_tone
-🪖,military_helmet
+🪖,military
 🎖️,military_medal
 🎖,military_medal
 🌌,milky_way
@@ -2864,7 +2876,7 @@ Unicode,English Name
 🚞,mountain_railway
 🐁,mouse
 🐭,mouse_face
-🪤,mouse_trap
+🪤,trap
 👄,mouth
 🎥,movie_camera
 ✖️,multiply
@@ -2888,15 +2900,16 @@ Unicode,English Name
 💅🏼,nail_polish_medium-light_skin_tone
 💅🏽,nail_polish_medium_skin_tone
 📛,name_badge
-🏞️,national_park
+🏞️,park
 🏞,national_park
-🤢,nauseated_face
+🤢,gross
 🧿,nazar_amulet
 👔,necktie
-🤓,nerd_face
+🤓,nerd
+🤓,actually
 🪺,nest_with_eggs
 🪆,nesting_dolls
-😐,neutral_face
+😐,ope
 🌑,new_moon
 🌚,new_moon_face
 📰,newspaper
@@ -2912,7 +2925,7 @@ Unicode,English Name
 🥷🏼,ninja_medium-light_skin_tone
 🥷🏽,ninja_medium_skin_tone
 🚳,no_bicycles
-⛔,no_entry
+⛔,no
 🚯,no_littering
 📵,no_mobile_phones
 🔞,no_one_under_eighteen
@@ -2938,17 +2951,17 @@ Unicode,English Name
 🧑🏼‍💼,office_worker_medium-light_skin_tone
 🧑🏽‍💼,office_worker_medium_skin_tone
 👹,ogre
-🛢️,oil_drum
+🛢️,oil
 🛢,oil_drum
-🗝️,old_key
+🗝️,key
 🗝,old_key
-👴,old_man
+👴,grandpa
 👴🏿,old_man_dark_skin_tone
 👴🏻,old_man_light_skin_tone
 👴🏾,old_man_medium-dark_skin_tone
 👴🏼,old_man_medium-light_skin_tone
 👴🏽,old_man_medium_skin_tone
-👵,old_woman
+👵,grandma
 👵🏿,old_woman_dark_skin_tone
 👵🏻,old_woman_light_skin_tone
 👵🏾,old_woman_medium-dark_skin_tone
@@ -2965,7 +2978,7 @@ Unicode,English Name
 🕉,om
 🚘,oncoming_automobile
 🚍,oncoming_bus
-👊,oncoming_fist
+👊,boom
 👊🏿,oncoming_fist_dark_skin_tone
 👊🏻,oncoming_fist_light_skin_tone
 👊🏾,oncoming_fist_medium-dark_skin_tone
