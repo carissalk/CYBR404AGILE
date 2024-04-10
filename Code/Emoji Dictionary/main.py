@@ -15,6 +15,7 @@ punctuation = ['.', ',', '!', '?', ';', ':', '-', '(', ')', '[', ']', '{', '}', 
 
 
 # response function
+"""
 def get_response(user_message):
     words = user_message.split()
     words = [''.join(ch for ch in word if ch not in string.punctuation) for word in words]
@@ -27,6 +28,36 @@ def get_response(user_message):
 
     # Join the words back into a string and return it
     return ' '.join(words)
+"""
+
+# working on getting rid of underscores
+def get_response(user_message):
+    words = user_message.split()
+    response = []
+    i = 0
+
+    while i < len(words):
+        match = None
+
+        for j in range(1, 5):
+            if i + j > len(words):
+                break
+
+            phrase = '_'.join(words[i:i+j]).lower()
+
+            if phrase in emoji_dict:
+                match = phrase
+                break
+
+        if match is None:
+            response.append(words[i])
+            i += 1
+        else:
+            response.append(emoji_dict[match])
+            i += len(match.split('_'))
+
+    return ' '.join(response)
+
 
 
 # Getting the dictionary/csv file and creating DataFrame
