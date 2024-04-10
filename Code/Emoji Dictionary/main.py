@@ -7,28 +7,9 @@ import string
 """
 Current Issues:
 - bot returns lowercase response instead of exact user input
-- need to have underscores for multi-word emojis
-       -check if word is converted and if not try to add the next (up to 3 times)
 """
 
 punctuation = ['.', ',', '!', '?', ';', ':', '-', '(', ')', '[', ']', '{', '}', '\\', '|', '<', '>', '@', '#', '$', '%', '^', '&', '*', '~', '`', 'underscore', '+', '=']
-
-
-# response function
-"""
-def get_response(user_message):
-    words = user_message.split()
-    words = [''.join(ch for ch in word if ch not in string.punctuation) for word in words]
-
-    # Create a separate variable for the lowercased words
-    lower_words = [word.lower() for word in words]
-
-    # Replace any word that matches a key in the dictionary with the corresponding value
-    words = [emoji_dict.get(word, word) for word in lower_words]
-
-    # Join the words back into a string and return it
-    return ' '.join(words)
-"""
 
 # working on getting rid of underscores
 def get_response(user_message):
