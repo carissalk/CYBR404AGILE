@@ -13,18 +13,24 @@ punctuation = ['.', ',', '!', '?', ';', ':', '-', '(', ')', '[', ']', '{', '}', 
 
 # working on getting rid of underscores
 def get_response(user_message):
+    # Create a translation table that maps every punctuation character to None
+    translator = str.maketrans('', '', string.punctuation)
+
+    # Remove punctuation from the user message
+    user_message = user_message.translate(translator)
+
     words = user_message.split()
-    response = []
+    response = ['[YOUR NAME HERE] Bot:']
     i = 0
 
     while i < len(words):
         match = None
 
-        for j in range(1, 5):
+        for j in range(5, 0 , -1):
             if i + j > len(words):
                 break
 
-            phrase = '_'.join(words[i:i+j]).lower()
+            phrase = ' '.join(words[i:i+j]).lower()
 
             if phrase in emoji_dict:
                 match = phrase
@@ -35,7 +41,7 @@ def get_response(user_message):
             i += 1
         else:
             response.append(emoji_dict[match])
-            i += len(match.split('_'))
+            i += len(match.split(' '))
 
     return ' '.join(response)
 
