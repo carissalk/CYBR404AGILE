@@ -15,7 +15,8 @@ def get_response(user_message):
             user_message = user_message.replace(i, updatedPunctuation[punctuation.index(i)])
 
     words = user_message.split()
-    response = ['[Christian] Bot:']
+    response = ['']  # The string is for dev purposes. The string inside is used to indicate who's version of the bot is
+    # running.
     i = 0
 
     while i < len(words):
