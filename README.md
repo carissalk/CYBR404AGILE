@@ -25,6 +25,7 @@ The bot will be hosted for the duration of this project. <br>
 - [**Milestones**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Milestones.md) <br>
 - [**Timeline**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/timeline.jpg) <br>
 - [**Team Info**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Team%20Info.md) <br>
+- [**Testing Summary**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Testing%20Summary.md) <br>
 ### Scrum Sprints:
 - [**Sprint 1**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintOne.md) <br>
 - [**Sprint 2**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintTwo.md) <br>
