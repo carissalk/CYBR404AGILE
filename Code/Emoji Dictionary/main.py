@@ -21,7 +21,7 @@ def get_response(user_message):
     while i < len(words):
         match = None
 
-        for j in range(5, 0 , -1):
+        for j in range(1, 5):
             if i + j > len(words):
                 break
 
