@@ -4,23 +4,18 @@ import os
 from discord import Intents, Client, Message
 import string
 
-"""
-Current Issues:
-- bot returns lowercase response instead of exact user input
-"""
-
 punctuation = ['.', ',', '!', '?', ';', ':', '-', '(', ')', '[', ']', '{', '}', '\\', '|', '<', '>', '@', '#', '$', '%', '^', '&', '*', '~', '`', 'underscore', '+', '=']
+updatedPunctuation = [' . ', ' , ', ' ! ', ' ? ', ' ; ', ' : ', ' - ', ' ( ', ' ) ', ' [ ', ' ] ', ' { ', ' } ', ' \\ ', ' | ', ' < ', ' > ', ' @ ', ' # ', ' $ ', ' % ', ' ^ ', ' & ', ' * ', ' ~ ', ' ` ', ' underscore ', ' + ', ' = ']
 
-# working on getting rid of underscores
+
 def get_response(user_message):
     # Create a translation table that maps every punctuation character to None
-    translator = str.maketrans('', '', string.punctuation)
-
-    # Remove punctuation from the user message
-    user_message = user_message.translate(translator)
+    for i in user_message:
+        if i in punctuation:
+            user_message = user_message.replace(i, updatedPunctuation[punctuation.index(i)])
 
     words = user_message.split()
-    response = ['[YOUR NAME HERE] Bot:']
+    response = ['[Christian] Bot:']
     i = 0
 
     while i < len(words):
@@ -42,6 +37,7 @@ def get_response(user_message):
         else:
             response.append(emoji_dict[match])
             i += len(match.split(' '))
+    
 
     return ' '.join(response)
 
