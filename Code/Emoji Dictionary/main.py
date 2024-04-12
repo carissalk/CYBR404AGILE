@@ -2,14 +2,14 @@ import pandas as pd
 from typing import Final
 import os
 from discord import Intents, Client, Message
-import string
 
 punctuation = ['.', ',', '!', '?', ';', ':', '-', '(', ')', '[', ']', '{', '}', '\\', '|', '<', '>', '@', '#', '$', '%', '^', '&', '*', '~', '`', 'underscore', '+', '=']
 updatedPunctuation = [' . ', ' , ', ' ! ', ' ? ', ' ; ', ' : ', ' - ', ' ( ', ' ) ', ' [ ', ' ] ', ' { ', ' } ', ' \\ ', ' | ', ' < ', ' > ', ' @ ', ' # ', ' $ ', ' % ', ' ^ ', ' & ', ' * ', ' ~ ', ' ` ', ' underscore ', ' + ', ' = ']
 
+# invite link for bot: https://discord.com/oauth2/authorize?client_id=1222571680057262121&permissions=0&scope=bot
 
+#text replacement function
 def get_response(user_message):
-    # Create a translation table that maps every punctuation character to None
     for i in user_message:
         if i in punctuation:
             user_message = user_message.replace(i, updatedPunctuation[punctuation.index(i)])
@@ -27,6 +27,11 @@ def get_response(user_message):
 
             phrase = ' '.join(words[i:i+j]).lower()
 
+            # hardcoded rickroll
+            if phrase == "rickroll":
+                response.append("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+                break
+
             if phrase in emoji_dict:
                 match = phrase
                 break
@@ -37,8 +42,6 @@ def get_response(user_message):
         else:
             response.append(emoji_dict[match])
             i += len(match.split(' '))
-    
-
     return ' '.join(response)
 
 
@@ -48,6 +51,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(script_dir, 'updatedDict.csv')
 df = pd.read_csv(csv_path)
 
+# disocrd token
 tokenTrick = "MTIyMjU3MTY4M'DA1NzI2MjEyMQ.Gm4V-v.XF68jpU4u4BYw8OqKP7IhlUCK'4ofYzq6yJkk-s"
 tokenTrick = tokenTrick.replace("'", "")
 TOKEN = tokenTrick
@@ -62,7 +66,7 @@ client: Client = Client(intents=intents)
 # Convert the DataFrame into a dictionary
 emoji_dict = df.set_index('English Name')['Unicode'].to_dict()
 
-# Text to Emoji toggle
+# Text to Emoji toggle variable
 replace_text = True
 
 # messaging
@@ -89,7 +93,7 @@ async def send_message(message: Message, user_message: str) -> None:
         return
 
     if is_private := user_message[0] == '?':
-        user_message = user_message[1:] # might be a 0 after 1:
+        user_message = user_message[1:]
 
     try:
         response: str = get_response(user_message)
