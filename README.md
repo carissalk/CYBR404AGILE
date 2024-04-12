@@ -11,12 +11,12 @@ The TTE Discord bot takes an input of ***a discord message*** (in English) and o
 
 # Getting Started with TTE
 The bot will be hosted for the duration of this project. <br>
-*(insert info for using the bot once hosting is finalized)* <br>
+Use this [link](https://discord.com/oauth2/authorize?client_id=1222571680057262121&permissions=0&scope=bot) to invite the TTE Discord Bot to a Discord server of your own! <br>
 ### Once you have to bot in your server, you can begin sending emojified messages! <br> Use the following commands to interact with the bot: <br>
 ## /TTEtoggle
 *This command will turn the bot on or off for the server.* <br>
 ## /TTEhelp
-*This command will explain how to use the bot toggle.* <br>
+*This command will explain how to use the bot toggle and links to the GitHub Repository.* <br>
 
 ---
 ### Additional Documentation:
