@@ -32,6 +32,7 @@ The bot will be hosted for the duration of this project. <br>
 - [**Sprint 4**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintFour.md) <br>
 - [**Sprint 5**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintFive.md) <br>
 - [**Sprint 6**](https://github.com/carissalk/CYBR404AGILE/blob/main/Documentation/Sprints/SprintSix.md) <br>
+- [**Sprint 7**](https://github.com/carissalk/CYBR404AGILE/tree/main/Documentation/Sprints/SprintSeven.md) <br>
 
 ---
 #### Sources
